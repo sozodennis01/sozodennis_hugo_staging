@@ -28,7 +28,7 @@ enableRobotsTXT = true
   description = "sozodennis - Dennis Sarsozo's Personal Website"
 
   # The path to your favicon
-  favicon = "assets/favicon-32x32.png"
+  favicon = "/favicon-32x32.png"
 
   # These images will show up when services want to generate a preview of a link
   # to your site. Ignored if `generateSocialCard = true`. For more information
