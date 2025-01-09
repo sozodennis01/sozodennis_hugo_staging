@@ -1,11 +1,11 @@
 ---
-title: "sozodennis"
+title: "welcome!"
 date: 2025-01-08T00:00:00Z
 ---
 
 # Currently
 
-## [University of Hawaii at Manoa](https://manoa.hawaii.edu/catalog/schools-colleges/engineering/ee/)
+## [University of Hawaii at Manoa](https://ece.hawaii.edu/home/)
 
 ### Jan 2024 - Present (Targeting May 2027 Graduation)
 
