@@ -1,5 +1,5 @@
 ---
-title: "welcome!"
+title: "Welcome!"
 date: 2025-01-08T00:00:00Z
 ---
 

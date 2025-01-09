@@ -1,0 +1,18 @@
+<picture>
+    {{ $image := .Get "src" | resources.Get }}
+    {{ $webp := $image.Resize (printf "%sx%s webp" (.Get "width" | default "640") (.Get "height" | default "480")) }}
+    {{ $fallback := $image.Resize (printf "%sx%s" (.Get "width" | default "640") (.Get "height" | default "480")) }}
+    
+    <!-- WebP Source -->
+    <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+    
+    <!-- Fallback Source -->
+    <img 
+      src="{{ $fallback.RelPermalink }}" 
+      srcset="{{ $fallback.RelPermalink }} {{ .Get "width" | default "640" }}w, {{ $image.RelPermalink }} 2x"
+      sizes="{{ .Get "sizes" | default "(max-width: 640px) 640px, 100vw" }}"
+      alt="{{ .Get "alt" | default "Image" }}"
+      loading="{{ .Get "loading" | default "lazy" }}"
+      class="{{ .Get "class" | default "rounded-lg shadow-lg" }}"
+    >
+  </picture>

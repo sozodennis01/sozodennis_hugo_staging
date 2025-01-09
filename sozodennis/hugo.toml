@@ -22,8 +22,6 @@ enableRobotsTXT = true
     noClasses = false
 
 [params]
-  #customCSS = ["css/custom.css"]
-
   madeWith = "Made with [Hugo - Bear Cub](https://github.com/clente/hugo-bearcub)"
 
   # The description of your website
