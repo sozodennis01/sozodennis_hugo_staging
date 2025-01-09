@@ -19,7 +19,7 @@ When I’m not studying or hustling, I’m usually surfing, tending to my bonsai
 
 # Projects
 
-## [Warrior Knowledge Chatbot](https://wkchatbot.xyz)
+## [AFROTC Warrior Knowledge Chatbot](https://wkchatbot.xyz)
 
 DET175 Warrior Knowledge Quiz Chatbot is an interactive web-based chatbot designed to help cadets quiz themselves on the DET175 Cadet Handbook Information Fall 2024. Leveraging OpenAI's GPT-4 model, the chatbot generates diverse and randomized questions based on the handbook's content, facilitating effective self-assessment and learning. [Github](https://github.com/sozodennis01/Det175WarriorKnowledgeChatBot)
 
@@ -74,4 +74,4 @@ Network Operations Intern
 
 ---
 
-## [Resume](/Sarsozo-TechResume2022.pdf)
+## [Resume](/Sarsozo-2024TechResume.pdf)
