@@ -4,6 +4,7 @@ date: 2025-01-08T00:00:00Z
 layout: "photography"
 body_class: "page-photography"
 customCSS: "css/photography.css"
+description: "Photography Portfolio"
 menu:
   main:
     name: "Photography"
