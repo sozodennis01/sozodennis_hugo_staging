@@ -1,7 +1,3 @@
-[submodule "themes/blowfish"]
-	path = themes/blowfish
-	url = https://github.com/nunocoracao/blowfish.git
-	branch = main
 [submodule "sozodennis/themes/hugo-bearcub"]
 	path = sozodennis/themes/hugo-bearcub
 	url = https://github.com/clente/hugo-bearcub

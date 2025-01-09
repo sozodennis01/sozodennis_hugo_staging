@@ -1,12 +1,21 @@
 ---
-title: "Photography"
-date: 2025-01-08T00:00:00Z
+title: "Photography Portfolio"
+description: "Portrait Photography $90 - 1-hour session with unlimited photos!"
+layout: "photography"
+date: 2025-01-08
 draft: false
-menu: 
-  main: 
-    weight: 3
 ---
-This is my photography portfolio. Here, you'll find some of my favorite shots and projects.
-![Photo 1](images/photography/photo1.jpg)
-![Photo 2](images/photography/photo2.jpg)
-![Photo 3](images/photography/photo3.jpg)
+
+{{< portfolio-row >}}
+  {{< portfolio-item src="/photography/portraits/daron-grad.jpg" alt="Female Graduation Portrait" >}}
+  {{< portfolio-item src="/photography/portraits/candid-grad.jpg" alt="Two Female Champagne Graduation Portraits" >}}
+  {{< portfolio-item src="/photography/portraits/anne-grad.jpg" alt="Female Graduation Portrait" >}}
+{{< /portfolio-row >}}
+
+{{< portfolio-row >}}
+  {{< portfolio-item src="/photography/portraits/alan-grad.jpg" alt="Male Graduation Portrait" >}}
+  {{< portfolio-item src="/photography/portraits/hoa-grad.jpg" alt="Male Graduation Portrait" >}}
+  {{< portfolio-item src="/photography/portraits/zack-grad.jpg" alt="Male Graduation Portrait" >}}
+{{< /portfolio-row >}}
+
+Interested? Contact me at [dennis.sarsozo@gmail.com](mailto:dennis.sarsozo@gmail.com)
