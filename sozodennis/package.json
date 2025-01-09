@@ -4,18 +4,31 @@
   "description": "hugo static site generator scripts for sozodennis personal website",
   "main": "tailwind.config.js",
   "scripts": {
-    "css:build": "postcss ./assets/css/tailwind.css -o ./static/css/tailwind.css --env production",
+    "css:build": "NODE_ENV=production postcss ./assets/css/tailwind.css -o ./static/css/tailwind.css --env production",
     "css:dev": "postcss ./assets/css/tailwind.css -o ./static/css/tailwind.css",
-    "clean:css": "rm -f ./static/css/tailwind.css",
+    "clean:css": "rm -f ./static/css/tailwind.css || true",
     "build:css": "npm run css:build",
     "build:css-dev": "npm run css:dev",
-    "clean:hugo": "rm -rf public/",
+    "clean:hugo": "rm -rf public/ || true",
     "build:hugo": "hugo --gc --minify",
     "server:hugo": "hugo server -D",
     "dev": "npm run clean:css && npm run build:css-dev && npm run clean:hugo && npm run server:hugo",
     "deploy": "npm run clean:css && npm run build:css && npm run clean:hugo && npm run build:hugo"
   },
-  "keywords": ["hugo", "static site generator", "personal website", "blog"],
+  "keywords": [
+    "hugo",
+    "static site generator",
+    "personal website",
+    "blog"
+  ],
   "author": "Dennis Sarsozo - sozodennis",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.1.2",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^11.0.0",
+    "postcss-import": "^15.1.0",
+    "tailwindcss": "^3.3.2"
+  }
 }
