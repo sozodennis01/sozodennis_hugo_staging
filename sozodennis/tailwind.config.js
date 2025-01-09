@@ -7,6 +7,7 @@ module.exports = {
     './layouts/**/*.html',
     './content/**/*.md',
     './assets/css/**/*.css', // Ensure this line is present
+    './assets/**/*.js',
   ],
   theme: {
     extend: {},

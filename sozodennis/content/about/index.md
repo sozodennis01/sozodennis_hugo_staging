@@ -6,16 +6,18 @@ menu:
   main: 
     weight: 1
 ---
-## About
+## About Me
 
-Hi, I'm Dennis! I'm a Software Quality Assurance Engineer. I test mobile apps that allow people to use SAP from their phones! I'm excited about Virtual Reality, Augmented Reality, and web3. I do freelance photography, mainly senior portraits. I've been to Germany, France, Spain, Netherlands, South Korea, and the Philippines! I enjoy skateboarding, lifting, and snowboarding (if I had more time). I'm a fan of Linus Tech Tips. My first programming language was Visual Basic!
+Hi, I’m Dennis! I’m a Computer Engineering student at the University of Hawaii at Manoa and an AFROTC cadet working toward commissioning into the Space Force. I have a background in Business Information Technology and Computer Science, and I’m passionate about space operations, artificial intelligence, and building cool things with embedded systems.
+
+When I’m not studying or in uniform, you’ll probably find me surfing the waves in Oahu, snapping photos, or making videos that capture the beauty of island life. I’m all about learning, staying active, and finding ways to make a positive impact in the world. Let’s build!
+
+Nerd fact: my first programming language was Visual Basic.
 
 ---
 
-## My Top Songs for 2021
+## My Youtube Music 2024 Recap
 
 {{< rawhtml >}}
-<iframe src="https://open.spotify.com/embed/playlist/1M14KhG2Wey9CRBwf7zQSw?utm_source=generator" width="100%"
-          height="380" frameBorder="0" allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=CVI2AdWofHWM-zRJ&amp;list=PL9mqt0W45QztamO2JGgsS2HWv3PgXmnEa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 {{< /rawhtml >}}

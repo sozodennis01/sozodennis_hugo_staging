@@ -11,41 +11,51 @@ menu:
 ---
 ## Photography Portfolio
 
+{{< manual-tableofcontent >}}
+
 ### Photography Instagram: [@sozodenny](https://www.instagram.com/sozodenny)
 
 ### Portraits $90 - *1 hour session with unlimited photos!*
 
 {{< rawhtml >}}
 <div class="grid grid-cols-3 gap-4">
-  <img src="/photography/portraits/daron-grad.jpg" alt="Female Graduation Portrait" class="lazy w-full h-auto rounded">
-  <img src="/photography/portraits/candid-grad.jpg" alt="2 Females Champagne Graduation Portrait" class="w-full h-auto rounded">
-  <img src="/photography/portraits/anne-grad.jpg" alt="Female Graduation Portrait" class="w-full h-auto rounded">
-  
-  <img src="/photography/portraits/alan-grad.jpg" alt="Male Graduation Portrait" class="w-full h-auto rounded">
-  <img src="/photography/portraits/hoa-grad.jpg" alt="Male Graduation Portrait" class="w-full h-auto rounded">
-  <img src="/photography/portraits/zack-grad.jpg" alt="Male Graduation Portrait" class="w-full h-auto rounded">
-  
-  <img src="/photography/portraits/olicia-grad.jpg" alt="Female Graduation Portrait" class="w-full h-auto rounded">
-  <img src="/photography/portraits/alex-grad.jpg" alt="Female Graduation Portrait" class="w-full h-auto rounded">
-  <img src="/photography/portraits/nina-grad.jpg" alt="Female Graduation Portrait" class="w-full h-auto rounded">
-  
-  <img src="/photography/portraits/cono-portrait.jpg" alt="Male Portrait" class="w-full h-auto rounded">
-  <img src="/photography/portraits/sam-linkedin.jpg" alt="Male Portrait" class="w-full h-auto rounded">
-  <img src="/photography/portraits/adam-linkedin.jpg" alt="Male Portrait" class="w-full h-auto rounded">
-  
-  <img src="/photography/portraits/DanielPortrait-web-1.jpg" alt="Male Portrait" class="w-full h-auto rounded">
-  <img src="/photography/portraits/DanielPortrait-web-2.jpg" alt="Male Portrait" class="w-full h-auto rounded">
-  <img src="/photography/portraits/DanielPortrait-web-3.jpg" alt="Male Portrait" class="w-full h-auto rounded">
-  
-  <img src="/photography/portraits/dad-face-left.jpg" alt="Male Portrait" class="w-full h-auto rounded">
-  <img src="/photography/portraits/dad-face-on.jpg" alt="Male Portrait" class="w-full h-auto rounded">
-  <img src="/photography/portraits/dad-face-right.jpg" alt="Male Portrait" class="w-full h-auto rounded">
+  {{< photo src="/photography/portraits/ShawnJoy-DSCF8482.jpg" alt="Couple Anniversary Photo Hawaii" class="preload lazy rounded" >}}
+  {{< photo src="/photography/portraits/ShawnJoy-DSCF8620.jpg" alt="Couple Anniversary Photo Hawaii" class="preload lazy rounded" >}}
+  {{< photo src="/photography/portraits/ShawnJoy-DSCF8475.jpg" alt="Couple Anniversary Photo Hawaii" class="preload lazy rounded" >}}
 
-  <img src="/photography/portraits/duncan-guitar.jpg" alt="Man playing guitar portrait" class="col-span-3 w-full h-auto rounded">
+  {{< photo src="/photography/portraits/ShawnJoy-DSCF8601.jpg" alt="Couple Anniversary Photo Hawaii" class="col-span-3 lazy rounded" >}}
+
+  {{< photo src="/photography/portraits/ShawnJoy-DSCF8608.jpg" alt="Couple Anniversary Photo Hawaii" class="col-span-3 lazy rounded" >}}
+
+  {{< photo src="/photography/portraits/daron-grad.jpg" alt="Female Graduation Portrait" class="lazy rounded" >}}
+  {{< photo src="/photography/portraits/candid-grad.jpg" alt="2 Females Champagne Graduation Portrait" class="rounded" >}}
+  {{< photo src="/photography/portraits/anne-grad.jpg" alt="Female Graduation Portrait" class="rounded" >}}
+  
+  {{< photo src="/photography/portraits/alan-grad.jpg" alt="Male Graduation Portrait" class="rounded" >}}
+  {{< photo src="/photography/portraits/hoa-grad.jpg" alt="Male Graduation Portrait" class="rounded" >}}
+  {{< photo src="/photography/portraits/zack-grad.jpg" alt="Male Graduation Portrait" class="rounded" >}}
+  
+  {{< photo src="/photography/portraits/olicia-grad.jpg" alt="Female Graduation Portrait" class="rounded" >}}
+  {{< photo src="/photography/portraits/alex-grad.jpg" alt="Female Graduation Portrait" class="rounded" >}}
+  {{< photo src="/photography/portraits/nina-grad.jpg" alt="Female Graduation Portrait" class="rounded" >}}
+  
+  {{< photo src="/photography/portraits/cono-portrait.jpg" alt="Male Portrait" class="rounded" >}}
+  {{< photo src="/photography/portraits/sam-linkedin.jpg" alt="Male Portrait" class="rounded" >}}
+  {{< photo src="/photography/portraits/adam-linkedin.jpg" alt="Male Portrait" class="rounded" >}}
+  
+  {{< photo src="/photography/portraits/DanielPortrait-web-1.jpg" alt="Male Portrait" class="rounded" >}}
+  {{< photo src="/photography/portraits/DanielPortrait-web-2.jpg" alt="Male Portrait" class="rounded" >}}
+  {{< photo src="/photography/portraits/DanielPortrait-web-3.jpg" alt="Male Portrait" class="rounded" >}}
+  
+  {{< photo src="/photography/portraits/dad-face-left.jpg" alt="Male Portrait" class="rounded" >}}
+  {{< photo src="/photography/portraits/dad-face-on.jpg" alt="Male Portrait" class="rounded" >}}
+  {{< photo src="/photography/portraits/dad-face-right.jpg" alt="Male Portrait" class="rounded" >}}
+
+  {{< photo src="/photography/portraits/duncan-guitar.jpg" alt="Man playing guitar portrait" class="col-span-3 rounded">}}
 </div>
 {{< /rawhtml >}}
 
-## Interested? Contact me at [dennis.sarsozo@gmail.com](mailto:dennis.sarsozo@gmail.com)
+### Interested? Contact me at [dennis.sarsozo@gmail.com](mailto:dennis.sarsozo@gmail.com)
 
 ---
 
@@ -64,13 +74,25 @@ menu:
   {{< instagram url="https://www.instagram.com/p/B4k8VB7nR5m/?utm_source=ig_embed&utm_campaign=loading" >}}
   {{< instagram url="https://www.instagram.com/p/B8tkHPSHK6m/?utm_source=ig_embed&utm_campaign=loading" >}}
 </div>
+{{< /rawhtml >}}
 
-<h2>Videos</h2>
+### Videos
 
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
+{{< rawhtml >}}
+<div class="grid grid-cols-2 sm:grid-cols-2 gap-4 mt-8">
   {{< youtube url="https://www.youtube.com/embed/f_BjD5wQes0" >}}
   {{< youtube url="https://www.youtube.com/embed/MPlXC4Rvdqs" >}}
   {{< youtube url="https://www.youtube.com/embed/3CZvTzy0sxc" class="col-span-2" >}}
 </div>
+{{< /rawhtml >}}
 
+---
+
+## Youtube
+
+{{< rawhtml >}}
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
+  {{< youtube url="https://www.youtube.com/embed/gQMMLKp_oJw?si=ID5HV2sA0aG7pBRz" >}}
+  {{< youtube url="https://www.youtube.com/embed/UXr6Bv8L30o?si=H539AljUkKN7ysaA" >}}
+</div>
 {{< /rawhtml >}}
