@@ -1,0 +1,26 @@
+# Hugo generated files
+public/
+resources/
+hugo_stats.json
+
+# Temporary and backup files
+*.bak
+*.swp
+*.tmp
+*.log
+.DS_Store
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE/editor specific files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Node.js (if using npm or yarn)
+node_modules/
+package-lock.json
+yarn.lock
