@@ -1,0 +1,25 @@
+<div class="relative group {{ .Get "class" | default "" }}">
+    <picture>
+      {{ $image := .Get "src" | resources.Get }}
+      {{ if $image }}
+        {{ $webp := $image.Resize (printf "%sx" (.Get "width" | default "720")) }}
+        {{ $fallback := $image.Resize (printf "%sx" (.Get "width" | default "720")) }}
+  
+        <!-- WebP source -->
+        <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+  
+        <!-- Just link to the fallback's full-size .RelPermalink -->
+        <a href="{{ $image.RelPermalink }}" target="_blank" rel="noopener">
+          <img
+            src="{{ $fallback.RelPermalink }}"
+            alt="{{ .Get "alt" | default "HD Retina Image" }}"
+            loading="{{ .Get "loading" | default "lazy" }}"
+            width="{{ .Get "width" | default "720" }}"
+            class="{{ .Get "class" | default "rounded-lg shadow-lg cursor-pointer" }}"
+          >
+        </a>
+      {{ else }}
+        <p>Error: Image resource not found for src="{{ .Get "src" }}"</p>
+      {{ end }}
+    </picture>
+  </div>
