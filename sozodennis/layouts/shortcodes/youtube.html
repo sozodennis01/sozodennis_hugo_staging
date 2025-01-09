@@ -1,9 +1,6 @@
-<div class="youtube-embed w-full aspect-video rounded-lg shadow-lg {{ .Get "class" | default "" }}">
-  <iframe 
-    src="{{ .Get "url" }}"
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen
+<div class="youtube-embed w-full aspect-video rounded-lg shadow-lg h-full {{ .Get " class" | default "" }}">
+  <iframe width="560" height="315" src="{{ .Get "url"}}" title="YouTube video player" frameborder="0"
     class="w-full h-full rounded-lg {{ .Get "class" | default "" }}"
-  ></iframe>
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
