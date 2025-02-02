@@ -86,17 +86,15 @@ Helped my sister out babysitting and had a lot of fun hanging out with my niece 
 
 ## Big ol storm
 Flash flood at Manoa but luckily safe while driving home, lowkey fun to skate in the rain
-{{< rawhtml >}}
-{{< grid cols="3" >}}
+{{< video-carousel id="storm-carousel" >}}
 <div><iframe src="https://iframe.mediadelivery.net/embed/378630/c22726d6-259c-4093-be36-cc5dbce09531?autoplay=true&loop=true&muted=true&preload=true&responsive=true" loading="lazy" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
 <div><iframe src="https://iframe.mediadelivery.net/embed/378630/6995dca6-f090-4150-98d3-5672fc7446c2?autoplay=true&loop=true&muted=true&preload=true&responsive=true" loading="lazy" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
 <div><iframe src="https://iframe.mediadelivery.net/embed/378630/d4beb167-80a0-4ff6-9be9-c19eb2eac724?autoplay=true&loop=true&muted=true&preload=true&responsive=true" loading="lazy" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
-{{< /grid >}}
-{{< /rawhtml >}}
+{{< /video-carousel >}}
 
 ## Options assigned and the last Chubbies burger
 Accidentally got assigned my options... whoops 😳 its fine i didn't get charged the full order but it did pay for my lunch :D
-{{< grid gap="5" >}}
+{{< grid >}}
 {{< photo src="/blog/2025_JanRefresh/REFRESH - JAN 2025 - 38 of 39.jpeg" width="720" class="lazy rounded" >}}
 {{< photo src="/blog/2025_JanRefresh/REFRESH - JAN 2025 - 39 of 39.jpeg" width="720" class="lazy rounded" >}}
 {{< /grid>}}

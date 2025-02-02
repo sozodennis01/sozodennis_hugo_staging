@@ -1,0 +1,30 @@
+{{/* layouts/shortcodes/video-carousel.html */}}
+{{/* 
+  Usage:
+  {{< video-carousel id="unique-carousel-id" >}}
+    ... your inner items with classes "snap-center flex-shrink-0 w-full" ...
+  {{< /video-carousel >}}
+
+  If no "id" parameter is provided, it defaults to "video-carousel".
+*/}}
+
+{{ $carouselID := .Get "id" | default "video-carousel" }}
+
+<div class="relative">
+  <!-- Carousel container -->
+  <div id="{{ $carouselID }}" class="overflow-x-auto flex snap-x snap-mandatory scroll-smooth">
+    {{ .Inner | safeHTML }}
+  </div>
+
+  <!-- Navigation buttons -->
+  <button 
+    onclick="document.getElementById('{{ $carouselID }}').scrollBy({ left: -document.getElementById('{{ $carouselID }}').offsetWidth, behavior: 'smooth' })" 
+    class="absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-600 text-white p-2 rounded hover:bg-gray-700 focus:outline-none">
+    Prev
+  </button>
+  <button 
+    onclick="document.getElementById('{{ $carouselID }}').scrollBy({ left: document.getElementById('{{ $carouselID }}').offsetWidth, behavior: 'smooth' })" 
+    class="absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-600 text-white p-2 rounded hover:bg-gray-700 focus:outline-none">
+    Next
+  </button>
+</div>
