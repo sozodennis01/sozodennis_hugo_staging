@@ -16,7 +16,9 @@ I decided this year that I'll be doing **POSSE** which is an abbreviation for *
 
 ## Happy New Years!
 This is my first _real_ New Years in Hawaii and everyone was popping off! I never saw fireworks up close with glasses too so it was surreal to see it all in 4k.
-{{< bunnyvideo-autoplayonview src="https://iframe.mediadelivery.net/embed/378630/a178919a-e7be-4863-8f17-df2765825f57?autoplay=true&loop=false&muted=false&preload=true&responsive=true" >}}
+{{< rawhtml >}}
+<div style="position:relative;padding-top:56.25%;"><iframe src="https://iframe.mediadelivery.net/embed/378630/a178919a-e7be-4863-8f17-df2765825f57?autoplay=true&loop=false&muted=false&preload=true&responsive=true" loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
+{{< /rawhtml >}}
 
 ## Capital Modern First Friday Date
 I went on a art museum date with Kristy and saw Petroglyph art and got some cute stickers + artwork!
@@ -85,9 +87,11 @@ Helped my sister out babysitting and had a lot of fun hanging out with my niece 
 ## Big ol storm
 Flash flood at Manoa but luckily safe while driving home, lowkey fun to skate in the rain
 {{< rawhtml >}}
-<div style="position:relative;padding-top:56.25%;"><iframe src="https://iframe.mediadelivery.net/embed/378630/c22726d6-259c-4093-be36-cc5dbce09531?autoplay=true&loop=true&muted=true&preload=true&responsive=true" loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
-<div style="position:relative;padding-top:56.25%;"><iframe src="https://iframe.mediadelivery.net/embed/378630/6995dca6-f090-4150-98d3-5672fc7446c2?autoplay=true&loop=true&muted=true&preload=true&responsive=true" loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
-<div style="position:relative;padding-top:56.25%;"><iframe src="https://iframe.mediadelivery.net/embed/378630/d4beb167-80a0-4ff6-9be9-c19eb2eac724?autoplay=true&loop=true&muted=true&preload=true&responsive=true" loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
+{{< grid cols="3" >}}
+<div><iframe src="https://iframe.mediadelivery.net/embed/378630/c22726d6-259c-4093-be36-cc5dbce09531?autoplay=true&loop=true&muted=true&preload=true&responsive=true" loading="lazy" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
+<div><iframe src="https://iframe.mediadelivery.net/embed/378630/6995dca6-f090-4150-98d3-5672fc7446c2?autoplay=true&loop=true&muted=true&preload=true&responsive=true" loading="lazy" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
+<div><iframe src="https://iframe.mediadelivery.net/embed/378630/d4beb167-80a0-4ff6-9be9-c19eb2eac724?autoplay=true&loop=true&muted=true&preload=true&responsive=true" loading="lazy" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
+{{< /grid >}}
 {{< /rawhtml >}}
 
 ## Options assigned and the last Chubbies burger
