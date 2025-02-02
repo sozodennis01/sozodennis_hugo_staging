@@ -15,7 +15,7 @@
             alt="{{ .Get "alt" | default "HD Retina Image" }}"
             loading="{{ .Get "loading" | default "lazy" }}"
             width="{{ .Get "width" | default "3840" }}"
-            class="{{ .Get "class" | default "rounded-lg shadow-lg cursor-pointer" }}"
+            class="{{ .Get "class" | default "rounded-lg shadow-lg cursor-pointer object-contain max-h-48" }}"
           >
         </a>
       {{ else }}

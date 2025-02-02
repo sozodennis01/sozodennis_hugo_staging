@@ -1,0 +1,7 @@
+{{/* Get the dynamic parameters with defaults: cols defaults to "3" and gap defaults to "4" */}}
+{{ $cols := default "2" (.Get "cols") }}
+{{ $gap  := default "4" (.Get "gap") }}
+
+<div class="grid grid-cols-{{ $cols }} gap-{{ $gap }} place-items-center {{ .Get "class" | default "" }}">
+  {{ .Inner }}
+</div>

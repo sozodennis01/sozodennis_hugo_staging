@@ -122,6 +122,12 @@
 .aspect-video {
     aspect-ratio: 16 / 9
 }
+.h-full {
+    height: 100%
+}
+.max-h-48 {
+    max-height: 12rem
+}
 .w-full {
     width: 100%
 }
@@ -140,6 +146,9 @@
 .grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr))
 }
+.place-items-center {
+    place-items: center
+}
 .gap-4 {
     gap: 1rem
 }
@@ -148,6 +157,10 @@
 }
 .rounded-lg {
     border-radius: 0.5rem
+}
+.object-contain {
+    -o-object-fit: contain;
+       object-fit: contain
 }
 .py-4 {
     padding-top: 1rem;
