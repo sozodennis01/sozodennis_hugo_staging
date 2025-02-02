@@ -1,0 +1,31 @@
+<div class="bunny-embed" style="position:relative;padding-top:56.25%;">
+    <iframe class="lazy-bunny"
+            data-src="{{ .Get "src" }}"
+            loading="lazy"
+            style="border:0;position:absolute;top:0;height:100%;width:100%;"
+            allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;"
+            allowfullscreen="true">
+    </iframe>
+  </div>
+  
+  {{/* Include the IntersectionObserver script only once per page */}}
+  {{ if not (.Page.Scratch.Get "bunnyLazyLoadScriptIncluded") }}
+    {{ .Page.Scratch.Set "bunnyLazyLoadScriptIncluded" true }}
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const lazyBunnies = document.querySelectorAll('.lazy-bunny');
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const iframe = entry.target;
+              iframe.src = iframe.getAttribute('data-src');
+              observer.unobserve(iframe);
+            }
+          });
+        }, { threshold: 0.25 });
+    
+        lazyBunnies.forEach(iframe => observer.observe(iframe));
+      });
+    </script>
+  {{ end }}
+  

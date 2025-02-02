@@ -16,14 +16,13 @@ I decided this year that I'll be doing **POSSE** which is an abbreviation for *
 
 ## Happy New Years!
 This is my first _real_ New Years in Hawaii and everyone was popping off! I never saw fireworks up close with glasses too so it was surreal to see it all in 4k.
-{{< rawhtml >}}
-<div style="position:relative;padding-top:56.25%;"><iframe src="https://iframe.mediadelivery.net/embed/378630/a178919a-e7be-4863-8f17-df2765825f57?autoplay=true&loop=true&muted=false&preload=true&responsive=true" loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
-{{< /rawhtml >}}
+{{< bunnyvideo-autoplayonview src="https://iframe.mediadelivery.net/embed/378630/a178919a-e7be-4863-8f17-df2765825f57?autoplay=true&loop=false&muted=false&preload=true&responsive=true" >}}
+
 ## Capital Modern First Friday Date
 I went on a art museum date with Kristy and saw Petroglyph art and got some cute stickers + artwork!
 {{< grid >}}
-{{< photo src="/blog/2025_JanRefresh/REFRESH - JAN 2025 - 5 of 39.jpeg" width="720" class="lazy rounded" >}}
-{{< photo src="/blog/2025_JanRefresh/REFRESH - JAN 2025 - 6 of 39.jpeg" width="720" class="lazy rounded" >}}
+{{< photo src="/blog/2025_JanRefresh/REFRESH - JAN 2025 - 5 of 39.jpeg" width="720" class="rounded" >}}
+{{< photo src="/blog/2025_JanRefresh/REFRESH - JAN 2025 - 6 of 39.jpeg" width="720" class="rounded" >}}
 {{< /grid >}}
 
 ## Pokemon TCG Craze
@@ -81,23 +80,19 @@ Helped my sister out babysitting and had a lot of fun hanging out with my niece 
 {{< photo src="/blog/2025_JanRefresh/REFRESH - JAN 2025 - 29 of 39.jpeg" width="720" class="lazy rounded" >}}
 {{< photo src="/blog/2025_JanRefresh/REFRESH - JAN 2025 - 36 of 39.jpeg" width="720" class="lazy rounded" >}}
 {{< /grid>}}
-{{< rawhtml >}}
-<div style="position:relative;padding-top:56.25%;"><iframe src="https://iframe.mediadelivery.net/embed/378630/d462af0f-8b82-4854-a922-6be311b3d3a6?autoplay=true&loop=true&muted=false&preload=true&responsive=true" loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
-{{< /rawhtml >}}
+{{< bunnyvideo-autoplayonview src="https://iframe.mediadelivery.net/embed/378630/d462af0f-8b82-4854-a922-6be311b3d3a6?autoplay=true&loop=true&muted=false&preload=true&responsive=true" >}}
 
 ## Big ol storm
 Flash flood at Manoa but luckily safe while driving home, lowkey fun to skate in the rain
 {{< rawhtml >}}
-{{< grid cols="2" >}}
-<div><iframe src="https://iframe.mediadelivery.net/embed/378630/c22726d6-259c-4093-be36-cc5dbce09531?autoplay=true&loop=true&muted=true&preload=true&responsive=true" loading="lazy" style="border:0;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
-<div><iframe src="https://iframe.mediadelivery.net/embed/378630/6995dca6-f090-4150-98d3-5672fc7446c2?autoplay=true&loop=true&muted=true&preload=true&responsive=true" loading="lazy" style="border:0;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
-{{< /grid >}}
+<div style="position:relative;padding-top:56.25%;"><iframe src="https://iframe.mediadelivery.net/embed/378630/c22726d6-259c-4093-be36-cc5dbce09531?autoplay=true&loop=true&muted=true&preload=true&responsive=true" loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
+<div style="position:relative;padding-top:56.25%;"><iframe src="https://iframe.mediadelivery.net/embed/378630/6995dca6-f090-4150-98d3-5672fc7446c2?autoplay=true&loop=true&muted=true&preload=true&responsive=true" loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
 <div style="position:relative;padding-top:56.25%;"><iframe src="https://iframe.mediadelivery.net/embed/378630/d4beb167-80a0-4ff6-9be9-c19eb2eac724?autoplay=true&loop=true&muted=true&preload=true&responsive=true" loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
 {{< /rawhtml >}}
 
 ## Options assigned and the last Chubbies burger
 Accidentally got assigned my options... whoops 😳 its fine i didn't get charged the full order but it did pay for my lunch :D
-{{< grid >}}
+{{< grid gap="5" >}}
 {{< photo src="/blog/2025_JanRefresh/REFRESH - JAN 2025 - 38 of 39.jpeg" width="720" class="lazy rounded" >}}
 {{< photo src="/blog/2025_JanRefresh/REFRESH - JAN 2025 - 39 of 39.jpeg" width="720" class="lazy rounded" >}}
 {{< /grid>}}
