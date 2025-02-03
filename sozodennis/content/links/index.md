@@ -5,9 +5,7 @@ draft: false
 body_class: "page-links"
 customCSS: "css/links.css"
 description: "sozodennis link page"
-menu:
-  main:
-    name: ""
+hide_from_menu: true
 ---
 # my links 😎
 - [2025 January Refresh](/posts/2025-january-refresh/)
