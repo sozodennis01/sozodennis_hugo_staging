@@ -1,5 +1,59 @@
 {{ define "main" }}
 <!-- Link to homepage-specific CSS -->
 <link rel="stylesheet" href="/css/homepage.css">
+
+<!-- BLOG POSTS SECTION -->
+{{/*
+Filter for blog posts from your regular pages.
+Adjust "Section" "posts" if your posts live elsewhere.
+*/}}
+{{ $posts := (where .Site.RegularPages "Section" "posts").ByDate.Reverse }}
+
+{{ if gt (len $posts) 0 }}
+<section class="latest-posts">
+    <h1>Latest Post</h1>
+    {{/* Featured Latest Post */}}
+    {{ $latest := index $posts 0 }}
+    <article class="featured-post p-6 mb-8 bg-white rounded shadow">
+        <h3 class="text-3xl font-bold mb-2">
+            <a href="{{ $latest.RelPermalink }}" class="hover:underline">{{ $latest.Title }}</a>
+        </h3>
+        <time datetime="{{ $latest.Date.Format " 2006-01-02" }}" pubdate class="block text-sm text-gray-600">
+            {{ $latest.Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
+        </time>
+        <p class="mt-4 text-gray-700">{{ $latest.Summary }}</p>
+    </article>
+    <hr>
+    {{ if gt (len $posts) 1 }}
+    <h2 class="text-2xl font-bold">More Posts</h2>
+    <ul class="blog-posts">
+        {{ $others := after 1 $posts }}
+        {{ range $others }}
+        <li class="border rounded hover:bg-gray-100">
+            <span class="text-sm text-gray-500">
+                <time datetime="{{ .Date.Format " 2006-01-02" }}" pubdate>
+                    {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
+                </time>
+            </span>
+            {{ if .Params.link }}
+            <a href="{{ .Params.link }}" target="_blank" class="text-blue-500 hover:underline">
+                {{ .Title }} ↪
+            </a>
+            {{ else }}
+            <a href="{{ .RelPermalink }}" class="text-blue-500 hover:underline">
+                {{ .Title }}
+            </a>
+            {{ end }}
+        </li>
+        {{ else }}
+        <li>{{ i18n "no-posts" }}</li>
+        {{ end }}
+    </ul>
+    {{ end }}
+</section>
+{{ end }}
+
+<!-- Render the homepage markdown content -->
 {{ .Content }}
+
 {{ end }}
