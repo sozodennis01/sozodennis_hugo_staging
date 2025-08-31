@@ -4,7 +4,8 @@ date: 2025-01-08T00:00:00Z
 layout: "photography"
 body_class: "page-photography"
 customCSS: "css/photography.css"
-description: "Photography Portfolio"
+description: "Dennis Sarsozo's Photography Portfolio"
+card: "/photography/portraits/ShawnJoy-DSCF8601.jpg"
 menu:
   main:
     name: "Photography"
@@ -16,10 +17,29 @@ menu:
 
 ### Photography Instagram: [@sozodenny](https://www.instagram.com/sozodenny)
 
-### Portraits $90 - *1 hour session with unlimited photos!*
+### Portraits: Flat $100 per project - *1 hour client appointment with unlimited edited photos!*
 
 {{< rawhtml >}}
 <div class="grid grid-cols-3 gap-4">
+
+  {{< photo src="/photography/portraits/MaliaMaternity-DSCF0146.jpg" alt="Couple Maternity Photo Hawaii" class="preload lazy rounded" >}}
+  {{< photo src="/photography/portraits/MaliaMaternity-DSCF0158.jpg" alt="Couple Maternity Photo Hawaii" class="preload lazy rounded" >}}
+  {{< photo src="/photography/portraits/MaliaMaternity-DSCF0113.jpg" alt="Couple Maternity Photo Hawaii" class="preload lazy rounded" >}}
+
+  {{< photo src="/photography/portraits/MaliaMaternity-DSCF0138.jpg" alt="Couple Maternity Photo Hawaii" class="col-span-3 preload lazy rounded" >}}
+
+  {{< photo src="/photography/portraits/MaliaMaternity-DSCF0085.jpg" alt="Couple Maternity Photo Hawaii" class="preload lazy rounded" >}}
+  {{< photo src="/photography/portraits/MaliaMaternity-DSCF0069.jpg" alt="Couple Maternity Photo Hawaii" class="preload lazy rounded" >}}
+  {{< photo src="/photography/portraits/MaliaMaternity-DSCF0058.jpg" alt="Couple Maternity Photo Hawaii" class="preload lazy rounded" >}}
+
+  {{< photo src="/photography/portraits/MaliaMaternity-DSCF0061.jpg" alt="Couple Maternity Photo Hawaii" class="col-span-3 preload lazy rounded" >}}
+
+  {{< photo src="/photography/portraits/MaliaMaternity-DSCF0205.jpg" alt="Couple Maternity Photo Hawaii" class="preload lazy rounded" >}}
+  {{< photo src="/photography/portraits/MaliaMaternity-DSCF0200.jpg" alt="Couple Maternity Photo Hawaii" class="preload lazy rounded" >}}
+  {{< photo src="/photography/portraits/MaliaMaternity-DSCF0215.jpg" alt="Couple Maternity Photo Hawaii" class="preload lazy rounded" >}}
+
+  {{< photo src="/photography/portraits/MaliaMaternity-DSCF0179.jpg" alt="Couple Maternity Photo Hawaii" class="col-span-3 preload lazy rounded" >}}
+
   {{< photo src="/photography/portraits/ShawnJoy-DSCF8482.jpg" alt="Couple Anniversary Photo Hawaii" class="preload lazy rounded" >}}
   {{< photo src="/photography/portraits/ShawnJoy-DSCF8620.jpg" alt="Couple Anniversary Photo Hawaii" class="preload lazy rounded" >}}
   {{< photo src="/photography/portraits/ShawnJoy-DSCF8475.jpg" alt="Couple Anniversary Photo Hawaii" class="preload lazy rounded" >}}

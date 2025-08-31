@@ -9,6 +9,7 @@ tags:
 categories:
   - blog
   - life
+  - refresh
 description: A recap of 2025 January
 ---
 # My first 2025 refresh on my own website!
